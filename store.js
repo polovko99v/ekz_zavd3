@@ -9,7 +9,7 @@ const store = new Vuex.Store({
         photos: [],
         searchString: "",
         formVisible: false,
-        formPassenger: {},
+        formPhoto: {},
         formNewMode: true
     },
     getters: {
