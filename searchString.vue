@@ -11,7 +11,8 @@ export default {
     data(){
         return{
            searchString:{
-               fromDate:""
+               fromDate:"1999-10-10",
+               type:Date,
            }
         }
     },
