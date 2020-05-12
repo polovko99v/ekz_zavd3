@@ -31,7 +31,8 @@ const store = new Vuex.Store({
             likeCount:80
         }
         ],        
-        queryForm: "1999-10-10"
+        queryForm:new Date("05-10-1992")
+        
     },
     getters: {
         filtredPhotos(state) {
